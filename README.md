@@ -6,4 +6,4 @@ Markup:
 
     <a href="#" class="button"><span>Text For Button</span></a>
     
-See index.html for styles.
+See index.html for styles. Rendered correctly in IE8, FF and WebKit browsers.
