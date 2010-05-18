@@ -10,27 +10,36 @@
         }
         
         a.button, a.button span {
-          padding: 8px 4px 8px 4px;
+          font-size: 12px;
+          padding: 6px 4px 10px 4px;
         }
         
         a.button {
           color: #FFF;
-          padding-left: 5px;
+          padding-left: 6px;
           padding-right: 0;
           text-decoration: none;
-          background: url(button-left.jpg) no-repeat left center;
-          line-height: 20px;
+          background: url(button-left.png) no-repeat left top;
         }
         
         a.button span {
           padding-right: 12px;
-          background: url(button-right.jpg) no-repeat right center;
+          background: url(button-right.png) no-repeat right top;
         }
+        
+        a.button:hover {
+          background-position: 0 -40px;
+        }
+        
+        a.button:hover span {
+          background-position: 100% -40px;
+        }
+        
       </style>
     </head>
     <body id="index" onload="">
       
-      <p><a href="#" class="button"><span>Some Text</span></a></p>
+      <p>Some text with a button <a href="#" class="button"><span>Some Text</span></a></p>
       
       <p><a href="#" class="button"><span>Some really really long text</span></a></p>
       
